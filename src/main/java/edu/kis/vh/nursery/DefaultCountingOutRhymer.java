@@ -3,10 +3,10 @@ package edu.kis.vh.nursery;
 public class DefaultCountingOutRhymer {
     static final int EMPTY = -1;
     static final int SIZE = 12;
-    static final int FULL = SIZE - 1;    
+    static final int FULL = SIZE - 1;
 
 
-    private int[] numbers = new int[SIZE];
+    private final int[] numbers = new int[SIZE];
 
     private int total = EMPTY;
 
